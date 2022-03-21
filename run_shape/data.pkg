@@ -1,0 +1,9 @@
+# Packages (lines beginning "#" are comments)
+ &PACKAGES
+ useGMRedi=.TRUE.,
+ usediagnostics=.TRUE.,
+ useLayers=.TRUE.,
+ useRBCS=.TRUE. 
+ usePTRACERS=.TRUE.,
+#useMNC=.TRUE.,
+ &

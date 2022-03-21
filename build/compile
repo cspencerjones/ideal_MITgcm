@@ -1,0 +1,9 @@
+#!/bin/bash
+
+module load intel/2020b
+module load netCDF-Fortran/4.5.3
+
+../../MITgcm/tools/genmake2 -rootdir ../../MITgcm -mods ../../MITgcm/ECCOV4/release4/code/ -optfile ../../MITgcm/ECCOV4/release4/code/linux_ia64_ifort_habanero -mpi
+
+make depend
+make
